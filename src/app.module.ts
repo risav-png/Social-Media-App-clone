@@ -16,7 +16,7 @@ import { SearchModule } from './search/search.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot("mongodb+srv://Admin:Myadmin@cluster0.uzx4f6k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"),UserModule,PostModule,
+  imports: [MongooseModule.forRoot("mongodb+srv://<UserName>:<Password>"),UserModule,PostModule,
    
     CommentssModule,
     LikesModule,
